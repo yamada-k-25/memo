@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Dollar {
-    var ammount: Int
+class Dollar: Equatable {
+    private var ammount: Int
     
     init(_ ammount: Int) {
         self.ammount = ammount
@@ -20,5 +20,9 @@ class Dollar {
     
     func equals(_ dollar: Dollar) -> Bool {
         self.ammount == dollar.ammount
+    }
+    
+    static func == (lhs: Dollar, rhs: Dollar) -> Bool {
+        lhs.equals(rhs)
     }
 }
