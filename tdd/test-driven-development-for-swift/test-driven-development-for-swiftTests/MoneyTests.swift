@@ -5,11 +5,12 @@
 
 import Foundation
 import XCTest
+@testable import test_driven_development_for_swift
 
 class MoneyTests: XCTestCase {
     func testMultiplication() {
-        Dollar five = Dollar(5)
+        let five = Dollar(5)
         five.times(2)
-        XCTAssertEqual(10, five)
+        XCTAssertEqual(10, five.ammount)
     }
 }
