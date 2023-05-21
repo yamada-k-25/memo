@@ -4,4 +4,5 @@
 - [ ] ammountをprivateにする
 - [x] Dollarの副作用どうする
 - [ ] Moneyの丸め処理を追加する
-
+- [x] equals()
+- hascode()

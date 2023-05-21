@@ -15,4 +15,10 @@ class MoneyTests: XCTestCase {
         product = five.times(3)
         XCTAssertEqual(15, product.ammount)
     }
+    
+    func testEquality() {
+        // 三角測量
+        XCTAssertTrue(Dollar(5).equals(Dollar(5)))
+        XCTAssertFalse(Dollar(5).equals(Dollar(6)))
+    }
 }
