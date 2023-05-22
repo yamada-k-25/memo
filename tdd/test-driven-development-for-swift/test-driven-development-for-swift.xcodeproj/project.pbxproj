@@ -12,6 +12,7 @@
 		2DAE2CA52A1A292800BB6324 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAE2CA42A1A292800BB6324 /* Money.swift */; };
 		2DAE2CA72A1A29A900BB6324 /* test_driven_development_for_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAE2CA62A1A29A900BB6324 /* test_driven_development_for_swiftApp.swift */; };
 		2DAE2CA92A1A4A2A00BB6324 /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAE2CA82A1A4A2A00BB6324 /* Dollar.swift */; };
+		2DAE2CAC2A1BB71F00BB6324 /* Franc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAE2CAB2A1BB71F00BB6324 /* Franc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		2DAE2CA62A1A29A900BB6324 /* test_driven_development_for_swiftApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test_driven_development_for_swiftApp.swift; sourceTree = "<group>"; };
 		2DAE2CA82A1A4A2A00BB6324 /* Dollar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
 		2DAE2CAA2A1A4F5600BB6324 /* MEMO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MEMO.md; sourceTree = "<group>"; };
+		2DAE2CAB2A1BB71F00BB6324 /* Franc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Franc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				2DAE2C792A1A211E00BB6324 /* test_driven_development_for_swift.entitlements */,
 				2DAE2CA42A1A292800BB6324 /* Money.swift */,
 				2DAE2CA82A1A4A2A00BB6324 /* Dollar.swift */,
+				2DAE2CAB2A1BB71F00BB6324 /* Franc.swift */,
 			);
 			path = "test-driven-development-for-swift";
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAE2CAC2A1BB71F00BB6324 /* Franc.swift in Sources */,
 				2DAE2CA52A1A292800BB6324 /* Money.swift in Sources */,
 				2DAE2CA92A1A4A2A00BB6324 /* Dollar.swift in Sources */,
 				2DAE2CA72A1A29A900BB6324 /* test_driven_development_for_swiftApp.swift in Sources */,

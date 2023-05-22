@@ -6,3 +6,5 @@
 - [ ] Moneyの丸め処理を追加する
 - [x] equals()
 - hascode()
+- [ ] DollarとFrancの重複
+- [ ] timesの一般化
