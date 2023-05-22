@@ -13,6 +13,7 @@ class Money {
     }
     
     func equals(_ money: Money) -> Bool {
-        self.amount == money.amount
+        self.amount == money.amount &&
+        type(of: self) == type(of: money.self)
     }
 }
