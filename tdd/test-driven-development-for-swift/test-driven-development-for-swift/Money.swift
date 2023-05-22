@@ -12,7 +12,7 @@ class Money {
         self.amount = amount
     }
     
-    func times(_ amount: Int) {
-        self.amount *= amount
+    func equals(_ money: Money) -> Bool {
+        self.amount == money.amount
     }
 }
