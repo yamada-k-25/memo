@@ -7,3 +7,5 @@
 
 ### Security
 - https://security.apple.com/blog/what-if-we-had-sockpuppet-in-ios16/
+- https://www.itmedia.co.jp/pcuser/articles/2102/19/news052.html
+  - Apple Security 
